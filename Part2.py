@@ -49,6 +49,7 @@ def main():
         else:
             x = increaseX(x, split[0], int(split[1]))
     print(f"{screen}")
+    file.close()
 
 
 if (__name__ == "__main__"):
